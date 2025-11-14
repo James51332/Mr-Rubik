@@ -1,0 +1,21 @@
+[project]
+name = "mr-rubik"
+version = "0.1.0"
+description = "Pi Camera Server"
+requires-python = ">=3.6"
+
+dependencies = [
+    "arducamevksdk>=1.0.8",
+    "arducam-rgbir-remosaic",
+    "numpy",
+    "Pillow",
+    "pycrc",
+    "json5",
+    "pydantic",
+    "pydantic-yaml",
+    "flask",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
